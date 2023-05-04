@@ -1,0 +1,60 @@
+.infoBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #202122;
+    height: 60px;
+    width: 100%;
+    border-bottom: 0.1px dotted #2CB2C0;
+}
+  
+.leftInnerContainer {
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+    color: #fccb06;
+}
+
+.logo_image {
+    width: 70px;
+}
+  
+.rightInnerContainer {
+    display: flex;
+    padding-right: 10px;
+}
+
+.users_image {
+    width: 30px;
+}
+
+.settings {
+    width: 22px;
+    height: 28px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#close-icon {
+    width: 20px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.user_count {
+    color: #fccb06;
+    padding-left: 6px;
+    padding-top: 10px;
+}
+
+.onlineIcon {
+    margin-right: 2px;
+    width: 6px;
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+
+    .logo_image {
+        width: 50px;
+    }
+}

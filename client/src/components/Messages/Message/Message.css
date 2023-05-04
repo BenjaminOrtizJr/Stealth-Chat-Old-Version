@@ -1,0 +1,41 @@
+.messageBox {
+    background: #1A1A1D;
+    padding: 1px 10px;
+  }
+  
+  .messageText {
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 1em;
+    color: #2CB2C0;
+  }
+  
+  .messageText img {
+    vertical-align: middle;
+  }
+  
+  .messageContainer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 10px;
+    width: 90%;
+  }
+  
+  .sentText {
+    display: flex;
+    align-items: left;
+    font-family: Helvetica;
+    color: #828282;
+    letter-spacing: 0.3px;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+ 
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .messageContainer {
+    border: none;
+  }
+
+}

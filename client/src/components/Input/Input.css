@@ -1,0 +1,51 @@
+.form {
+    display: flex;
+    width: 100%;
+}
+  
+.input {
+    border: none;
+    border-top: 0.1px dotted #2CB2C0;
+    border-radius: 0;
+    width: 90%;
+    font-size: 1em;
+    height: 80px;
+    padding: 10px 15px 0 15px;
+    resize: none;
+    background-color: #202122;
+    color: #2CB2C0;
+    font-family: sans-serif;
+}
+
+.input::placeholder {
+    color: #2CB2C0;
+    font-size: 1em;
+}
+  
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+  
+.sendButton {
+    color: #2CB2C0 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #202122;
+    display: inline-block;
+    border-left: 0.1px dotted #2CB2C0;
+    border-top: 0.1px dotted #2CB2C0;
+    width: 10%;
+    cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .input {
+    width: 85%;
+    height: 50px;
+    }
+
+    .sendButton {
+        width: 15%;
+    }
+}
