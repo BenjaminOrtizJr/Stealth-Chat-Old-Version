@@ -52,9 +52,24 @@
     width: 6px;
 }
 
+.copyButton {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+.copyButton img {
+    width: 20px;
+    cursor: pointer;
+}
+
 @media (min-width: 320px) and (max-width: 700px) {
 
     .logo_image {
         width: 50px;
     }
+
+    .leftInnerContainer a {
+    border-right: 0.1px dotted #2CB2C0;
+}
 }
