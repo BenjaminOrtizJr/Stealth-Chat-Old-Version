@@ -11,8 +11,8 @@ const Join = ({ users }) => {
         <div className="joinOuterContainer">
             <div className="joinInnerContainer">
                 <img className="logo" src={logo} alt="stealth chat logo"/>
-                <div><input placeholder="Enter Display Name" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} required={true} /></div>
-                <div><input placeholder="Enter Sneaky Link" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} required={true} /></div>
+                <div><input placeholder="Enter Alias" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} required={true} /></div>
+                <div><input placeholder="Enter Stealth Code" className="joinInput mt-20" type="text" onChange={(event) => setRoom(event.target.value)} required={true} /></div>
                 <Link onClick={event => (!name || !room) ? event.preventDefault() : null} to={`/chat?name=${name}&room=${room}`}>
                     <button className="button mt-20" type="submit">Enter Room</button>
                 </Link>

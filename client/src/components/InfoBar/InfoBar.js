@@ -16,7 +16,7 @@ const InfoBar = ({ room, users }) => {
                 <img className="onlineIcon" src={onlineIcon} alt="online" />
                 <h4 className="room-name">{room}</h4>
                 <span>
-                    <button className="copyButton" onClick={() => { navigator.clipboard.writeText(`https://www.stealthchat.com | Sneaky Link: ${room}`); }}>
+                    <button className="copyButton" onClick={() => { navigator.clipboard.writeText(`https://www.stealthchat.com | Stealth Code: ${room}`); }}>
                         <img src={linkIcon} alt="link" />
                     </button>
                 </span>        
