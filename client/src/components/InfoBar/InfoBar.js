@@ -12,7 +12,7 @@ const InfoBar = ({ room, users }) => {
     return (
         <div className="infoBar">
             <div className="leftInnerContainer">&nbsp;
-                <a href="http://localhost:3000/"><img className="logo_image" src={logo} alt="logo" /></a>&nbsp;&nbsp;
+                <a href="#"><img className="logo_image" src={logo} alt="logo" /></a>&nbsp;&nbsp;
                 <img className="onlineIcon" src={onlineIcon} alt="online" />
                 <h4 className="room-name">{room}</h4>
                 <span>
